@@ -3,11 +3,11 @@ import re, os
 from Pikachu.events import register
 from Pikachu import telethn as tbot
 from Pikachu import telethn as tgbot
-PHOTO = "https://telegra.ph/file/0ac1f1b5c5b2376a14f3f.jpg"
+PHOTO = "https://telegra.ph/file/53a09a77ff2fbab471279.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   PIKACHU = event.sender.first_name
-  PIKACHU = "**♡ I,m Pikachu** \n\n"
+  PIKACHU = "**♡ I,m Mayil** \n\n"
   PIKACHU += "**♡ I'm Working Properly**\n\n"
   PIKACHU += "**♡ pikachu : 2.2 LATEST**\n\n"
   PIKACHU += "**♡ My Master :** [Manjeet](t.me/Hayat_Murat_30)\n\n"
