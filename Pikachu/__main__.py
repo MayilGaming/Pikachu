@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`hєllσ`[.](https://telegra.ph/file/caec4b208541417e7b4e6.jpg) `mч nαmє íѕ` *PIKACHU Bot*
+`hєllσ`[.](https://telegra.ph/file/53a09a77ff2fbab471279.jpg) `mч nαmє íѕ` *Mayil RoBot*
 `í αm pσwєrfull  grσup mαnαgєmєnt вσt í ѕpєcíαlízє ín mαnαgíng єntєrtαínmєnt tчpє grσupѕ.
 чσu cαn fínd mч líѕt σf αvαílαвlє cσmmαndѕ wíth! hít` *🔰Commands*   
 """
@@ -84,7 +84,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/pikachu_X_bot?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/Mayil_The_Group_Manager_Bot?startgroup=true"
         ),
     ],
     [
@@ -92,33 +92,33 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🤴 Repo", url="https://github.com/kaal0408/Pikachu"
+            text="🤴 Source", text="Hey I am Mayil My Source Is Always Private"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="♥Lovely status♥",
-            url="https://t.me/skyverse01",
+            text="MG Family",
+            url="https://t.me/MayilGaming",
         ),
     ],
     [
          InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/PikachuX_Support"
+            text="👥 SUPPORT", url="https://t.me/MG_Support_Group"
         ),
     ],
    [
          InlineKeyboardButton(
-            text="👥 Owner", url="https://t.me/Hayat_Murat_30"
+            text="👥 My Creator", url="https://t.me/mgteammg"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Pikachu] 
+`ʜɪ.. ɪ'ᴍ` [Mayil] 
 `ᴄʟɪᴄk ᴏn ᴛʜє ʙᴜᴛᴛᴏɴѕ ʙᴇʟᴏw ᴛσ ɢᴇt ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏn ᴀʙᴏᴜt ꜱᴘᴇᴄɪꜰɪc ᴍᴏᴅᴜʟᴇѕ..`"""
 
-pikachu_IMG = "https://telegra.ph/file/caec4b208541417e7b4e6.jpg"
+pikachu_IMG = "https://telegra.ph/file/53a09a77ff2fbab471279.jpg"
 
 DONATE_STRING = """hєчα, glαd tσ hєαr чσu wαnt tσ dσnαtє!
  чσu cαn ѕuppσrt thє prσjєct вч cσntαctíng @Hayat_Murat_30 \
@@ -368,7 +368,7 @@ def Pikachu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Pikachu_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Pikachu*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Mayil*, a powerful group management bot built to help you manage your group easily.
                  \n❍ í cαn rєѕtríct uѕєrѕ.
                  \n❍ í cαn grєєt uѕєrѕ wíth cuѕtσmízαвlє wєlcσmє mєѕѕαgєѕ αnd єvєn ѕєt α grσupѕ rulєѕ.
                  \n❍ í hαvє αn αdvαncєd αntí-flσσd ѕчѕtєm.
@@ -376,8 +376,8 @@ def Pikachu_about_callback(update, context):
                  \n❍ í hαvє α nσtє kєєpíng ѕчѕtєm, вlαcklíѕtѕ, αnd єvєn prєdєtєrmínєd rєplíєѕ σn cєrtαín kєчwσrdѕѕ.
                  \n❍ í chєck fσr adminѕ' pєrmíѕѕíσnѕ вєfσrє єхєcutíng αnч cσmmαnd αnd mσrє ѕtuffѕ
                  \n\n_pikachu licensed under the GNU General Public License v3.0_
-                 \nhєrє íѕ thє [💾Repository](https://github.com/kaal0408/pikachu).
-                 \n\níf чσu hαvє αnч quєѕtíσn αвσut píkαchu, lєt uѕ knσw αt .""",
+                 \nhєrє íѕ thє [💾Repository](https://t.me/MG_Support_Group).
+                 \n\níf чσu hαvє αnч quєѕtíσn αвσut Mayil, lєt uѕ knσw αt .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -403,8 +403,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Pikachu *
-                 \nHere is the [Source Code](https://github.com/Pikachu) .""",
+            text=""" Hi..🤗 I'm *Mayil*
+                 \nHere is the [Source Code](https://t.me/MG_Support_Group) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
